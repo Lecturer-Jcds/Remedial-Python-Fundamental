@@ -55,7 +55,7 @@ __Contoh__:
 Saat file dieksekusi, user diminta memasukkan alamat email, kemudian akan muncul hasil yang menyatakan email user valid atau tidak. Contoh hasil yang diharapkan:
 
 ```bash
-Input email : lintang@purwadhika.com
+Input email : hary_963@gmail.com
 Hasil : Alamat Email Yang Anda Masukkan Valid!!
 
 ```
