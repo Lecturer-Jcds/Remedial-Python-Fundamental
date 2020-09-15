@@ -24,7 +24,7 @@ Input tahun : 2020
 Hasil : TAHUN KABISAT
 ```
 
-✅ Commit & push source code jawaban soal ini ke __Github__ Anda, buatlah repo dengan nama __Remedial_Tahun_Kabisat__, kemudian lampirkan __url link repo Github__ Anda via email ke _khumaeni@purwadhika.com! & _
+✅ Commit & push source code jawaban soal ini ke __Github__ Anda, buatlah repo dengan nama __Remedial_Tahun_Kabisat__, kemudian lampirkan __url link repo Github__ Anda via email ke _khumaeni@purwadhika.com!_
 
 #
 
