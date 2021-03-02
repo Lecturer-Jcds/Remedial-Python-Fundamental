@@ -64,33 +64,36 @@ __Contoh__:
     - __5123 - 4567 - 8912 - 3456__ &nbsp;&nbsp;&nbsp;(dipisahkan dengan tanda hubung & spasi)
 
 __Input Berupa List yg berisi Dictionary Nasabah__  :
-    ```bash
+- CC Nasabah :
+    ```json
     ccNasabah = [
-    {"nama": "Joni", "noCreditCard": "4253625879615781"},
-    {"nama": "Andre", "noCreditCard": "5123-4567-8912-3455"},
-    {"nama": "Adam", "noCreditCard": "0525362587961578"},
-    {"nama": "Chris", "noCreditCard": "42536258796157867"},
-    {"nama": "Chandra", "noCreditCard": "4424424424442442"},
-    {"nama": "Desi", "noCreditCard": "44244z4424442444"},
-    {"nama": "Lady", "noCreditCard": "5122.2368.7954.3214"},
-    {"nama": "Mike", "noCreditCard": "4424444424442444"},
-    {"nama": "John", "noCreditCard": "5122-2368-7954-3213"},
-    {"nama": "Kopi", "noCreditCard": "61234-123-8912-3456"},
-    {"nama": "Richard", "noCreditCard": "5199-9967-7912-3457"},
-    {"nama": "Rick", "noCreditCard": "1111222233334444"},
-    {"nama": "Mira", "noCreditCard": "5123 - 4567 - 8912 - 3456"},
-    {"nama": "Dean", "noCreditCard": "4123356789123456"},
-    {"nama": "Sam", "noCreditCard": "4123456789123454"}
+            {"nama": "Joni", "noCreditCard": "4253625879615781"},
+            {"nama": "Andre", "noCreditCard": "5123-4567-8912-3455"},
+            {"nama": "Adam", "noCreditCard": "0525362587961578"},
+            {"nama": "Chris", "noCreditCard": "42536258796157867"},
+            {"nama": "Chandra", "noCreditCard": "4424424424442442"},
+            {"nama": "Desi", "noCreditCard": "44244z4424442444"},
+            {"nama": "Lady", "noCreditCard": "5122.2368.7954.3214"},
+            {"nama": "Mike", "noCreditCard": "4424444424442444"},
+            {"nama": "John", "noCreditCard": "5122-2368-7954-3213"},
+            {"nama": "Kopi", "noCreditCard": "61234-123-8912-3456"},
+            {"nama": "Richard", "noCreditCard": "5199-9967-7912-3457"},
+            {"nama": "Rick", "noCreditCard": "1111222233334444"},
+            {"nama": "Mira", "noCreditCard": "5123 - 4567 - 8912 - 3456"},
+            {"nama": "Dean", "noCreditCard": "4123356789123456"},
+            {"nama": "Sam", "noCreditCard": "4123456789123454"}
     ]
     ```
 
-__Function Initialization__
+__Function Initialization__:
+- Function :
     ```bash
     def ccValidation(..) :
         ....
     ```
 
-__Use Function__
+__Use Function__ :
+- Function :
     ```bash
     ccValid, ccInvalid = ccValidation(ccNasabah)
     print(ccValid)
@@ -111,7 +114,7 @@ __Output__ yang diharapkan:
     ```
 - List __*ccInvalid*__ berisi data nasabah dengan nomor kartu kredit yang tidak valid:
     ```json
-    [
+    ccInvalid = [
         {"nama": "Adam", "noCreditCard": "0525362587961578"},
         {"nama": "Chris", "noCreditCard": "42536258796157867"},
         {"nama": "Desi", "noCreditCard": "44244z4424442444"},
