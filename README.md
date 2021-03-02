@@ -64,7 +64,6 @@ __Contoh__:
     - __5123 - 4567 - 8912 - 3456__ &nbsp;&nbsp;&nbsp;(dipisahkan dengan tanda hubung & spasi)
 
 __Input Berupa List yg berisi Dictionary Nasabah__  :
-
     ```
     ccNasabah = [
     {"nama": "Joni", "noCreditCard": "4253625879615781"},
@@ -86,14 +85,12 @@ __Input Berupa List yg berisi Dictionary Nasabah__  :
     ```
 
 __Function Initialization__
-
-    ```python
+    ```
     def ccValidation(..) :
         ....
     ```
 
 __Use Function__
-
     ```
     ccValid, ccInvalid = ccValidation(ccNasabah)
     print(ccValid)
