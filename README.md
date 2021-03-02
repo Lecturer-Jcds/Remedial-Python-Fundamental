@@ -9,11 +9,11 @@
 
 
 
-### **Soal 1 - 📆 Tahun Kabisat**
+### **Soal 1 - Leap year**
 
 __*Tahun kabisat*__ merupakan tahun yang mengalami penambahan satu hari dengan tujuan untuk menyesuaikan penanggalan dengan tahun astronomi. Dalam satu tahun tidak secara persis terdiri dari 365 hari, tetapi __*365 hari 5 jam 48 menit 45,1814 detik*__. Jika hal ini tidak dihiraukan, maka setiap empat tahun akan kekurangan hampir 1 hari. Maka untuk mengkompensasi hal ini, setiap 4 tahun sekali, diberi 1 hari ekstra: __29 Februari__. 
 
-Buatlah sebuah file python interaktif (__*.py*__) yang dapat menentukan suatu input dari user tergolong tahun kabisat atau tidak. Saat file dieksekusi, user diminta memasukkan angka tahun tertentu, kemudian akan muncul hasil yang menyatakan input user tersebut tergolong tahun kabisat atau tidak. Contoh hasil yang diharapkan:
+Buatlah sebuah **Return Function** dengan **1 Argumen** serta dapat menerima inputan dari user yang dapat menentukan suatu input dari user tergolong tahun kabisat atau tidak. Saat file dieksekusi, user diminta memasukkan angka tahun tertentu, kemudian akan muncul hasil yang menyatakan input user tersebut tergolong tahun kabisat atau tidak. Contoh hasil yang diharapkan:
 **(Gunakan Sistem Penanggalan Gregorian)**
 
 ```bash
@@ -24,16 +24,15 @@ Input tahun : 2020
 Hasil : TAHUN KABISAT
 ```
 
-✅ Commit & push source code jawaban soal ini ke __Github__ Anda, buatlah repo dengan nama __Remedial_Tahun_Kabisat__, kemudian lampirkan __url link repo Github__ Anda via email ke _khumaeni@purwadhika.com_ dan _operational@purwadhika.com_
+
+✅ Commit & push source code jawaban soal ini, beserta file JSON hasilnya ke __Github__ Anda, buatlah repo dengan nama __Leap_Year__, kemudian lampirkan __url link repo Github__ Anda via email ke _khumaeni@purwadhika.com!_ dan _operational_jkt@purweadhika.com_. Subject Email : **Remedial Modul 1 - JCDS12 - Nama**
 
 
 #
 
-### **Soal 2 - 💳 Credit Card Validation**
+### **Soal 2 - Credit Card Validation**
 
-Disediakan __sebuah List yg berisi Dictionary__ (_ccNasabah_), List ini berisi data nomor kartu kredit nasabah sebuah bank, yang belum diverifikasi validitas kartu kreditnya. Buatlah __sebuah file python__ (*.py*) yang memiliki **Return Function** dan **1 Buah Argumen**, Function tersebut akan memisahkan antara nasabah dengan nomor kartu kredit valid & invalid, lalu menyimpan hasilnya dalam **Dictionary** terpisah (_ccValid_ dan _ccInvalid_) Skema kerjanya dapat diilustrasikan sebagai berikut:
-
-![kartukredit](./kartukredit.png)
+Disediakan __sebuah List yg berisi Dictionary__ (_ccNasabah_), List ini berisi data nomor kartu kredit nasabah sebuah bank, yang belum diverifikasi validitas kartu kreditnya. Buatlah __sebuah file python__ (*.py*) yang memiliki **Return Function** dan **1 Buah Argumen**, Function tersebut akan memisahkan antara nasabah dengan nomor kartu kredit valid & invalid, lalu menyimpan hasilnya dalam **Dictionary** terpisah (_ccValid_ dan _ccInvalid_).
 
 # 
 
@@ -65,6 +64,7 @@ __Contoh__:
     - __5123 - 4567 - 8912 - 3456__ &nbsp;&nbsp;&nbsp;(dipisahkan dengan tanda hubung & spasi)
 
 __Input Berupa List yg berisi Dictionary Nasabah__  :
+
     ```
     ccNasabah = [
     {"nama": "Joni", "noCreditCard": "4253625879615781"},
@@ -82,16 +82,18 @@ __Input Berupa List yg berisi Dictionary Nasabah__  :
     {"nama": "Mira", "noCreditCard": "5123 - 4567 - 8912 - 3456"},
     {"nama": "Dean", "noCreditCard": "4123356789123456"},
     {"nama": "Sam", "noCreditCard": "4123456789123454"}
-]
+    ]
     ```
 
 __Function Initialization__
+
     ```python
     def ccValidation(..) :
         ....
     ```
 
 __Use Function__
+
     ```
     ccValid, ccInvalid = ccValidation(ccNasabah)
     print(ccValid)
