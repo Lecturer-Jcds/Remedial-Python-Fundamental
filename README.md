@@ -64,7 +64,7 @@ __Contoh__:
     - __5123 - 4567 - 8912 - 3456__ &nbsp;&nbsp;&nbsp;(dipisahkan dengan tanda hubung & spasi)
 
 __Input Berupa List yg berisi Dictionary Nasabah__  :
-    ```
+    ```bash
     ccNasabah = [
     {"nama": "Joni", "noCreditCard": "4253625879615781"},
     {"nama": "Andre", "noCreditCard": "5123-4567-8912-3455"},
@@ -85,13 +85,13 @@ __Input Berupa List yg berisi Dictionary Nasabah__  :
     ```
 
 __Function Initialization__
-    ```
+    ```bash
     def ccValidation(..) :
         ....
     ```
 
 __Use Function__
-    ```
+    ```bash
     ccValid, ccInvalid = ccValidation(ccNasabah)
     print(ccValid)
     print(ccInvalid)
