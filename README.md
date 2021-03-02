@@ -25,7 +25,7 @@ Hasil : TAHUN KABISAT
 ```
 
 
-✅ Commit & push source code jawaban soal ini, beserta file JSON hasilnya ke __Github__ Anda, buatlah repo dengan nama __Leap_Year__, kemudian lampirkan __url link repo Github__ Anda via email ke _khumaeni@purwadhika.com!_ dan _operational_jkt@purweadhika.com_. Subject Email : **Remedial Modul 1 - JCDS12 - Nama**
+✅ Commit & push source code jawaban soal ini ke __Github__ Anda, buatlah repo dengan nama __Leap_Year__, kemudian lampirkan __url link repo Github__ Anda via email ke _khumaeni@purwadhika.com_ dan _operational_jkt@purwadhika.com_. Subject Email : **Remedial Modul 1 - JCDS12 - Nama**
 
 
 #
@@ -130,7 +130,7 @@ __Output__ yang diharapkan:
 _**Catatan:**_ 
 
 
-✅ Commit & push source code jawaban soal ini, beserta file JSON hasilnya ke __Github__ Anda, buatlah repo dengan nama __CC_Validation__, kemudian lampirkan __url link repo Github__ Anda via email ke _khumaeni@purwadhika.com!_ dan _operational_jkt@purweadhika.com_. Subject Email : **Remedial Modul 1 - JCDS12 - Nama**
+✅ Commit & push source code jawaban soal ini ke __Github__ Anda, buatlah repo dengan nama __CC_Validation__, kemudian lampirkan __url link repo Github__ Anda via email ke _khumaeni@purwadhika.com_ dan _operational_jkt@purwadhika.com_. Subject Email : **Remedial Modul 1 - JCDS12 - Nama**
 
 
 
